@@ -1,0 +1,42 @@
+body {
+    background-image: url("/lego-spiderman-hero-3w.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    ;
+}
+
+h1 {
+    color: rgb(191, 3, 3);
+}
+
+.container {
+    text-align: center;
+    backdrop-filter: blire(10px);
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
